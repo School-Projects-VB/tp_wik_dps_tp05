@@ -7,8 +7,6 @@ home: https://github.com/School-Projects-VB/tp_wik_dps_tp05
 sources:
   - registry.cluster.wik.cloud
 dependencies: 
-  - name: minikube
-    version: "1.28.0"
   - name: nginx
     version: "1.2.3"
 maintainers:
