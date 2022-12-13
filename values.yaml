@@ -1,0 +1,10 @@
+name: echowik-tp5
+namespace: tp05
+image: registry.cluster.wik.cloud/public/echo
+domainName: echowik-step5-ingress.test
+ports:
+  source: 8080
+  target: 8080
+label:
+  key: tp5
+  value: chart
