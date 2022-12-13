@@ -1,0 +1,17 @@
+apiVersion: v1
+name: the-chart
+version: 0.1.0
+description: The Chart
+type: application
+home: https://github.com/School-Projects-VB/tp_wik_dps_tp05
+sources:
+  - registry.cluster.wik.cloud
+dependencies: 
+  - name: minikube
+    version: "1.28.0"
+  - name: nginx
+    version: "1.2.3"
+maintainers:
+  - name: VBetsch
+    email: vbetsch.contact@gmail.com
+    url: https://github.com/VBetsch
